@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dino Game with JavaScript</title>
+</head>
+<body>
+    <div id="container">
+        <div id="dino">
+            <img src="img/dino.png" alt="img of dino">
+        </div>
+        <div id="block">
+            <img src="img/block.png" alt="img of cactus">
+        </div>
+        <div id="road">
+            <img src="img/road.png" alt="img of road">
+        </div>
+        <div id="cloud">
+            <img src="img/cloud.jpg" alt="img of cloud">
+        </div>
+        <div id="score">Score <b>00</b></div>
+        <div id="gameOver">Game over</div>
+        
+    </div>
+    <div class="btn">
+        <button onclick="handleStart()">Tap to start</button>
+    </div>
+    <div id="info">
+        <h1>No internet</h1>
+        <p>Try:</p>
+        <ul>
+            <li>Checking the networdk cables, modem, and router</li>
+            <li>Reconnecting to Wi-Fi</li>
+            <li class="liDesktop">Play the game: press space to start, ArrowUp to jump</li>
+            <li class="liMobile">Play the game: click the button to start, tap the screen to jump</li>
+        </ul>
+        <p>ERR_INTERNET_DISCONNECTED</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
