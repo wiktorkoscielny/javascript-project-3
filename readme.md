@@ -8,4 +8,4 @@ The start of the game and the jump is opearted via event listeners and onclick e
 
 The code is adapted to both desktop and mobile devices.
 
-You can try it out [link](https://warm-sfogliatella-aa6ce0.netlify.app/)
+You can try it out [link](https://dino-game-wk.netlify.app)
