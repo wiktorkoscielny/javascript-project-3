@@ -31,7 +31,7 @@ window.addEventListener("keydown", (start) => {
         }
 })
 
-//start game on mobile / desktop
+//start game on mobile
 function handleStart() {
     gameOver.style.display = "none";
     block.classList.add("blockActive");
