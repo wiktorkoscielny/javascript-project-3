@@ -1,4 +1,4 @@
-# Dino Game using JavaScript
+# Dino Game with JavaScript
 
 ## About
 It's simple game based on Google Chrome browser game. 
