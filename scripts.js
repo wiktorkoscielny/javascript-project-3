@@ -45,7 +45,7 @@ function handleStart() {
 
 
 // jump on mobile
-window.addEventListener("touchstart", (e) => {
+window.addEventListener("touchmove", (e) => {
     
          if(dino.classList != "dinoActive")
             {
